@@ -1,0 +1,16 @@
+# Copyright 2023 Manna Harbour
+# https://github.com/manna-harbour/miryoku
+
+name: 'My Corneish Zen'
+on: workflow_dispatch
+jobs:
+  build:
+    uses: ./.github/workflows/main.yml
+    secrets: inherit
+    with:
+      board: '[
+        "corneish_zen_v2_left","corneish_zen_v2_right"
+      ]'
+      alphas: '["qwerty"]'
+      nav: '["vi"]'
+      clipboard: '["mac"]'
