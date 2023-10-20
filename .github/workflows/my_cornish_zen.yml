@@ -13,4 +13,7 @@ jobs:
       ]'
       alphas: '["qwerty"]'
       nav: '["vi"]'
+      custom_config: '["#define MIRYOKU_KLUDGE_MOUSEKEYSPR"]'
+      kconfig: '["CONFIG_ZMK_MOUSE=y"]'
       clipboard: '["mac"]'
+      branches: '["zmkfirmware/zmk/main urob/zmk/mouse-3.2"]'
