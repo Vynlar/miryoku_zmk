@@ -14,4 +14,4 @@ jobs:
       alphas: '["qwerty"]'
       nav: '["vi"]'
       clipboard: '["mac"]'
-      branches: '["zmkfirmware/zmk/main caksoylar/zmk/caksoylar/zen-v1+v2"]'
+      branches: '["zmkfirmware/zmk/main SethMilliken/zmk/zen-display-patches"]'
